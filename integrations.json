@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "mode": "discovery",
+  "restaurants": [],
+  "providers": {
+    "square": {
+      "status": "credentials_required",
+      "endpoint": "/api/menu?provider=square&locationId="
+    },
+    "toast": {
+      "status": "partner_approval_required"
+    },
+    "doordash": {
+      "status": "partner_approval_required"
+    }
+  }
+}
